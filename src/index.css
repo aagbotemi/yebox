@@ -1,0 +1,38 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.yebox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 100vh; */
+  margin-top: 5rem;
+  flex-direction: column;
+}
+
+.yebox input {
+  /* height: 38px; */
+  padding: 8px;
+  font-size: 16px;
+  width: 15rem;
+  border: 1px solid green;
+  border-radius: 5px;
+  outline: none;
+}
+
+.yebox ul {
+  margin-top: 20px;
+  list-style-type: none;
+}
+
+.yebox ul li {
+  font-size: 18px;
+  margin-bottom: 4px;
+}
